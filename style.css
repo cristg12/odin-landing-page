@@ -89,5 +89,40 @@ button {
 
 .container-2 {
     height: 50vh;
-    background-color: red;
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight:800;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 5px solid;
+    border-color: blue;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 20px 0 20px;
+}
+
+.box-text {
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 20px 0 20px;
 }
