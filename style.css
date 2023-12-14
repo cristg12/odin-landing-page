@@ -160,10 +160,14 @@ button {
 }
 
 .blue-container {
+    display: flex;
     background-color: #3882F6;
     width: 1000px;
     height: 125px;
     border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
 
 footer{
@@ -173,4 +177,21 @@ footer{
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.c2a-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.c2a-button {
+    padding: 6px 30px 6px 30px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px ;
+    border-color: white;
+    font-weight: bold;
 }
